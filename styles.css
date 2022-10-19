@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+#tweet {
+    background-color: white;
+}
+
+h1 {
+    color: lightskyblue;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    color: lightskyblue;
+}
+
+button {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.tButton {
+    padding: 0;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column
+}

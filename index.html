@@ -3,20 +3,38 @@
 
 <head>
     <title>Twiter</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Twiter</h1>
+    <div class=tButton>
+        <h1>Twiter</h1>
+        <button type="button">
+            <img src="https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-articleLarge-v4.jpg?quality=75&auto=webp&disable=upscale"
+                height="50" width="60">
+        </button>
+    </div>
+    <button type="button">
+        Home
+    </button>
+    <button type="button">
+        Explore
+    </button>
+    <button type="button">
+        Notifications
+    </button>
+    <button type="button">
+        Messages
+    </button>
+
     <form id="send-tweet">
-        <input type="text" placeholder="Search Twitter" id ="tweet">
+        <input type="text" placeholder="Search Twiter" id="tweet">
         <button type="submit">Go</button>
 
     </form>
-
     <ul id=timeline>
     </ul>
     <script src="scripts.js"></script>
-
 </body>
 
-</html >
+</html>
