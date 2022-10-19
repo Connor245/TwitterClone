@@ -23,7 +23,7 @@ button {
 
 form {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .TButton {
@@ -32,4 +32,9 @@ form {
     background: none;
     display: flex;
     flex-direction: column
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
