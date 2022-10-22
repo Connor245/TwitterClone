@@ -8,8 +8,13 @@ function processForm(e) {
     //show the tweet in our timeline
     const ul = document.getElementById('timeline');
     const li = document.createElement('li');
+    const del = document.createElement('button');
+    del.addEventListener("click", function() {del.parentElement.remove()})
+
     li.appendChild(document.createTextNode(tweet.value));
     ul.appendChild(li);
+    li.appendChild(del);
+    
     tweet.value = ""
     return false;
 }
